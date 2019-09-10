@@ -1,0 +1,23 @@
+.div1{
+	background-color: orange;
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	width: 500px;
+	height: 400px;
+	z-index: 100;
+
+}
+
+h1{
+	position: absolute;
+	top: 5;
+	left:100;
+
+}
+
+.p1{
+	position: relative;
+	left:  150px;
+
+}

@@ -1,0 +1,93 @@
+div{
+	/*necessaire pour commencer*/
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+
+	-webkit-animation-name:chgt-couleur;
+	-webkit-animation-duration:5s;
+
+/*plus complexe et plus beau*/
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-timing-function: ease;
+	-moz-animation-delay: 1s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+
+	-o-animation-timing-function: ease;
+	-o-animation-delay: 1s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+/*basique et aussi beau*/
+/*
+	-moz-animation-name:chgt-couleur;
+	-moz-animation-duration:5s;
+
+	-o-animation-name:chgt-couleur;
+	-o-animation-duration:5s;
+
+	animation-name:chgt-couleur;
+	animation-duration:5s;
+*/
+}
+
+
+/*cas du complexe et plus beau*/
+@-webkit-keyframes chgt-couleur{
+	0%{background-color: blue; top: 0px; left:8%; }
+	25%{background-color: yellow; bottom: 0px; left:25%;}
+	50%{background-color: red; bottom: 0; left:50%;}
+	75%{background-color: green; top: 0px; left:75%;}
+	100%{background-color: blue; top: 0px; left:92%;}
+}
+
+/*cas du basique et beau*/
+/*
+@-webkit-keyframes chgt-couleur{
+	from {background-color: blue;}
+	to {background-color: orange;}
+}
+
+@-moz-keyframes chgt-couleur{
+	from {background-color: blue;}
+	to {background-color: orange;}
+}
+
+@-o-keyframes chgt-couleur{
+	from {background-color: blue;}
+	to {background-color: orange;}
+}
+
+@keyframes chgt-couleur{
+	from {background-color: blue;}
+	to {background-color: orange;}
+}
+*/
+
+#myDiv{
+	width: 200;
+	height: 55px;
+	background-color: pink;
+	border : 1px solid black ;
+	border-top: 10px;
+}
+
+div#myDiv{
+	/*IE 9*/
+	-ms-transform:rotateZ(60deg);
+	/*safari*/
+	-webkit-transform: rotateZ(60deg);
+	/*standart syntax*/
+	transform: : rotateZ(60deg);
+}

@@ -1,0 +1,22 @@
+.p1{
+	display: inline-block;
+	border: 1px solid black;
+	width: 65%;
+}
+
+
+.p2{
+	display: inline-block;
+	border: 1px solid black;
+	width: 30%;
+}
+
+span{
+	border: 1px solid black;
+	display: inline;
+
+}
+
+.p3{
+	display: none;
+}

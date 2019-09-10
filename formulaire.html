@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<HEAD>
+	<TITLE>Les liens</TITLE>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="css23.css"></link>
+</HEAD>
+
+<body>
+
+	<h1> les formulaire </h1>
+
+	<form method="post" action="traitement.php" >
+
+		<fieldset id="section1">
+
+			<legend>Information suplementaire</legend>
+
+			<label for="nom">entrer votre prenom</label>
+			<input type="text" id="nom" name="nom" autofocus="autofocus"><br><br>
+
+			<label for="prenom">entrer votre prenom</label>
+			<input type="text" id="prenom" name="prenom" autocomplete="on" placeholder="EX: Pierre"><br><br>
+
+			<label for="pass">Entrer le mot de passe</label>
+			<input type="password" id="pass" name="pass"><br><br>
+
+			<label for="naissance">acte de naissance</label>
+			<input type="date" id="naissance" name="naissance"><br><br>
+
+			<label for="Email">entrer votre eMail</label>
+			<input type="email" id="Email" name="Email"><br><br>
+
+			<label for="site">entrer votre site</label>
+			<input type="url" id="site" name="site"><br><br>
+
+			<label for="tel">entrer votre numero</label>
+			<input type="number" id="numero" name="numero"><br><br>
+
+			<label for="age">entrer votre age</label>
+			<input type="number" id="age" name="age" min="1" max="130"><br><br>
+
+
+			<label for="prez">petite presentation</label>
+			<textarea id="prez" name="presentation" placeholder="ma presentation"></textarea><br><br>
+
+			<input type="submit" value="Envoyer">
+			
+		</fieldset>
+		
+	</form>
+
+</body>
+</html>

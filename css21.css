@@ -1,0 +1,23 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	-webkit-transition: width 2s,background-color 5s;
+	-moz-transition: width 2s,background-color 5s;
+	-o-transition: width 2s,background-color 5s;
+	transition: width 2s,background-color 5s;
+}
+
+
+
+div:hover{
+	width: 300px;
+	background-color: white;
+	/*background-image: url(k.jpg);*/
+}
+
+
+p::selection{
+	color: green;
+	background-color: orange;
+}

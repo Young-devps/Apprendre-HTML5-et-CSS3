@@ -1,0 +1,27 @@
+body{
+	background-color:  #0f3554;
+}
+
+p{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h1{
+	color: orange;
+	font-size: 200%;
+}
+
+#para1{
+	color: cyan;
+}
+
+.para2{
+	color: yellow;
+}
+
+
+.para3{
+	color: white;
+}

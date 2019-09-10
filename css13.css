@@ -1,0 +1,44 @@
+body{
+	font-family: 'Open Sans' , sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+table{
+	border-collapse: collapse;
+	
+}
+
+
+thead th, tfoot td{
+	background-color: RGBa(255,127,039,0.8);
+	color : #FFF;
+	text-transform: uppercase;
+}
+
+td,th{ 
+	border: 1px solid green;
+	padding: 10px;
+}
+
+th{
+	background-color: RGB(110,200,40);
+	font-weight: normal;
+}
+
+.paire{
+	background-color: #069;
+}
+
+.impaire{
+	background-color: cyan;
+}
+
+tr:nth-child(even){
+	background-color: #EEE;
+}
+
+tr:nth-child(old){
+	background-color: #CCC;
+} 

@@ -1,0 +1,32 @@
+body{
+	font-family: 'Open Sans' Sans-serif;
+	background-color: gray;
+}
+
+
+h1:hover{
+	color : orange;
+}
+
+a:link{
+	color:blue;
+}
+
+
+a:visited{
+	color : green;
+}
+
+
+p:first-child{
+	color: cyan;
+}
+
+p:last-child{
+	color: red;
+}
+
+
+p:nth-child(even){
+	color: yellow; 
+}

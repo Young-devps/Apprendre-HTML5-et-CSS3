@@ -1,0 +1,18 @@
+body{
+	font-family: 'OPen Sans' , sans-serif;
+}
+
+.div1{
+	background: -webkit-linear-gradient(60deg , red ,orange,green);
+	background: -o-linear-gradient(60deg  , red ,orange,green); 
+	background: -moz-linear-gradient(60deg  , red ,orange,green);
+	background: linear-gradient(60deg  , red ,orange,green);
+}
+
+
+.div2{
+	background: -webkit-linear-gradient(90deg,RGBa(255,127,039,0.5), RGBa(000,200,10,0.2));
+	background: -o-linear-gradient(90deg,RGBa(255,127,039,0.5), RGBa(000,200,10,0.2));
+	background: -moz-linear-gradient(90deg,RGBa(255,127,039,0.5), RGBa(000,200,10,0.2));
+	background: linear-gradient(90deg,RGBa(255,127,039,0.5), RGBa(000,200,10,0.2));
+} 

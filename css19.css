@@ -1,0 +1,33 @@
+/*
+p::first-letter{
+	color: #A92;
+	font-size: 30px;
+}	
+
+
+p::first-line{
+	color: #A29;
+	font-size: 30px;
+}	
+
+p::-moz-selection{
+	background-color: orange;
+}
+
+p::selection{
+	background-color: orange;
+}
+*/
+
+div{
+	border: 1px solid black;
+}
+
+div::before{
+	content: "Du texte ajoute au debut de mon div , avec ::before";
+}
+
+
+div::after{
+	content: url("k.jpg");
+}

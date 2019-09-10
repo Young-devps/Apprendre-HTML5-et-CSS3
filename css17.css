@@ -1,0 +1,14 @@
+
+
+*{
+	border: 1px solid black;
+}
+
+div>h1{
+	color: blue;
+}
+
+
+div[class]{
+	color: yellow;
+}
